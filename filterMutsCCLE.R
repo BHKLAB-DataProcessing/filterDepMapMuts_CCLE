@@ -5,7 +5,7 @@ library(GenomicRanges)
 
 # source("~/Code/Github/PharmacoGx-private/R/matchToIDTable.R")
 
-inputDir <- "/pfs/input/"
+inputDir <- "/pfs/input"
 outDir <- "/pfs/out"
 
 
