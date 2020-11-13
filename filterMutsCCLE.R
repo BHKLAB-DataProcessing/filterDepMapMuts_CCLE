@@ -8,6 +8,7 @@ library(GenomicRanges)
 inputDir <- "/pfs/input"
 outDir <- "/pfs/out"
 
+list.files(inputDir)
 
 cellData <- read.csv(file.path(inputDir, "sample_info.csv")
 
