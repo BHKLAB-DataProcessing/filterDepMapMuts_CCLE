@@ -1,7 +1,7 @@
 library(data.table)
 library(RaggedExperiment)
 library(GenomicRanges)
-library(rtracklayer)
+#library(rtracklayer)
 
 # source("~/Code/Github/PharmacoGx-private/R/matchToIDTable.R")
 
