@@ -10,12 +10,12 @@ outDir <- "/pfs/out"
 
 list.files(inputDir)
 
-cellData <- read.csv(file.path(inputDir, "sample_info.csv")
+cellData <- read.csv(file.path(inputDir, "sample_info.csv"))
 
 allMuts <- fread("/pfs/input/CCLE_mutations.csv")
-print("done")
+
 ccle.muts <- allMuts[CGA_WES_AC != "" | HC_AC != "" | RD_AC != "" | WGS_AC != ""]
-print("done2")
+
 fwrite(ccle.muts, file = "ccleAllMafs.maf",sep="\t", quote=FALSE)
 
 
